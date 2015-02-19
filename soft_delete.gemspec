@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = SoftDelete::VERSION
   spec.authors       = ["Victor"]
   spec.email         = ["a2ninek@yahoo.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Simple gem for soft delete.}
+  spec.description   = %q{Simple gem for soft delete.}
+  spec.homepage      = "https://github.com/victorcreed/soft_delete.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
