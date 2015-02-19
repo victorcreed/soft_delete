@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'soft_delete/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "soft_delete"
+  spec.name          = "my_soft_delete"
   spec.version       = SoftDelete::VERSION
   spec.authors       = ["Victor"]
   spec.email         = ["a2ninek@yahoo.com"]
