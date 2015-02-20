@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'soft_delete/version'
+require 'my_soft_delete/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "my_soft_delete"
-  spec.version       = SoftDelete::VERSION
+  spec.version       = MySoftDelete::VERSION
   spec.authors       = ["Victor"]
   spec.email         = ["a2ninek@yahoo.com"]
   spec.summary       = %q{Simple gem for soft delete.}
@@ -19,6 +19,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "activerecord", [">= 3.0.0"]
 end

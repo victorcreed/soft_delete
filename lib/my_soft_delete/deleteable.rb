@@ -1,4 +1,4 @@
-module SoftDelete
+module MySoftDelete
   module Deleteable
     def self.included base
       base.send :include, InstanceMethods

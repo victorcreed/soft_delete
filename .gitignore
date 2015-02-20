@@ -12,4 +12,5 @@
 *.o
 *.a
 mkmf.log
+debug.log
 *.gem
