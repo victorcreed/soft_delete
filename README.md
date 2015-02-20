@@ -1,6 +1,6 @@
 # SoftDelete
 
-TODO: Write a gem description
+Easy way to soft delete records. This micro gem helps developer to instantly add delatable column, which provides assistance in marking record as deleted while applying default scope to the model. The default scope restrict records which are updated as deleted.  
 
 ## Installation
 
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Add migration for column which deleted_at and its type will be datetime. We will add generator in next version.
+2. Add acts_as_soft_delete in the model class.
+3. If you want to force delete record use the method destroy(force: true). That will delete the record permanently. 
 
 ## Contributing
 
